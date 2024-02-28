@@ -8,3 +8,9 @@ python version >= 3.7
 ```
 pip install -r requirements.txt
 ```
+
+# 使用
+
+```
+python main.py FILE_PATH TRANS_FILE_PATH
+```
