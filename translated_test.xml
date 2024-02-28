@@ -1,0 +1,78 @@
+<LanguageData>
+  <!--Toggle Valve--><CommandDesignateOpenCloseValveLabelRimefeller>&#25320;&#21160;&#38400;</CommandDesignateOpenCloseValveLabelRimefeller>
+  <!--Toggle the valve open or closed--><CommandDesignateOpenCloseValveDescRimefeller>&#20999;&#25442;&#38400;&#38376;&#25171;&#24320;&#25110;&#20851;&#38381;</CommandDesignateOpenCloseValveDescRimefeller>
+  <!--Valve Closed--><ValveClosedRimefeller>&#38400;&#38376;&#20851;&#38381;</ValveClosedRimefeller>
+  
+  <!--No uncured plasteel--><NoUncuredPlasteel>&#26080;&#26410;&#22266;&#21270;&#22609;&#26009;</NoUncuredPlasteel>
+  <!--No uncured synthamide--><NoUncuredSynthamide>&#27809;&#26377;&#26410;&#22266;&#21270;&#30340;&#21512;&#25104;&#29289;</NoUncuredSynthamide>
+  <!--Cannot change mode while curing--><CantModeAutoclave>&#22266;&#21270;&#26102;&#26080;&#27861;&#26356;&#25913;&#27169;&#24335;</CantModeAutoclave>
+  <!--Curing Time: {0}--><CuringTime>&#22266;&#21270;&#26102;&#38388;&#65306;&#65371;0&#65373;</CuringTime>
+  
+  <!--Pick Colour--><PickCompositeColour>&#25342;&#21462;&#39068;&#33394;</PickCompositeColour>
+  <!--Pick the colour of the cured synthamide composite--><PickCompositeColourDesc>&#36873;&#25321;&#22266;&#21270;&#30340;&#21512;&#25104;&#37232;&#33018;&#22797;&#21512;&#29289;&#30340;&#39068;&#33394;</PickCompositeColourDesc>
+  <!--Pick Synthylene Colour--><PickSynthyleneColour>Pick Synthylene Colour</PickSynthyleneColour>
+  <!--Pick Synthylene Colour--><PickSynthyleneColourDesc>Pick Synthylene Colour</PickSynthyleneColourDesc>
+  
+  <!--Cure Plasteel--><CurePlasteel>Cure Plasteel</CurePlasteel>
+  <!--Cure Composite--><CureComposite>&#22266;&#21270;&#22797;&#21512;&#26448;&#26009;</CureComposite>
+  <!--Toggle between curing plasteel or composite at this autoclave--><CommandCompositeModeDesc>&#22312;&#36825;&#20010;&#39640;&#21387;&#37340;&#20013;&#20999;&#25442;&#22266;&#21270;&#22609;&#26009;&#25110;&#22797;&#21512;&#26448;&#26009;</CommandCompositeModeDesc>
+
+  <!--Fuel Storage: {0} / {1}L--><FuelStorage>&#29123;&#26009;&#23384;&#20648;&#65306;&#65371;0&#65373;/{1}L</FuelStorage>
+  <!--Piped Fuel Storage: {0}L--><TotalFuelStorage>&#31649;&#36947;&#29123;&#26009;&#20648;&#23384;&#65306;{0}L</TotalFuelStorage>
+
+  <!--Drilling oil well--><DrillingPhase>&#38075;&#20117;</DrillingPhase>
+  <!--The oil derrick has been constructed, but the well still needs to be drilled.\n\nA colonist with the construction skill must supervise the drilling operation until it is complete.\n\nUp to 3 colonists can supervise the drilling at the same time to speed up the process\n\nProgress: {0}--><DrillingPhaseDesc>&#30707;&#27833;&#20117;&#26550;&#24050;&#32463;&#24314;&#36896;&#23436;&#27605;&#65292;&#20294;&#36825;&#21475;&#20117;&#36824;&#38656;&#35201;&#38075;&#25506;&#12290;\\n\n&#24517;&#39035;&#30001;&#20855;&#26377;&#26045;&#24037;&#25216;&#33021;&#30340;&#27542;&#27665;&#32773;&#30417;&#30563;&#38075;&#20117;&#20316;&#19994;&#65292;&#30452;&#21040;&#20316;&#19994;&#23436;&#25104;&#12290;\\n\n&#26368;&#22810;3&#21517;&#27542;&#27665;&#32773;&#21487;&#20197;&#21516;&#26102;&#30417;&#30563;&#38075;&#25506;&#65292;&#20197;&#21152;&#24555;&#36827;&#31243;\n\n&#36827;&#31243;&#65306;&#65371;0&#65373;</DrillingPhaseDesc>
+  
+  <!--Oil Storage: {0} / {1}L--><OilStorage>&#20648;&#27833;&#65306;&#65371;0&#65373;/{1}L</OilStorage>
+  <!--Well Pressure: x{0}--><WellPressure>&#20117;&#21387;&#65306;x&#65371;0&#65373;</WellPressure>
+  <!--Well Capacity: {0} L/day--><OilWellCapacity>&#20117;&#23481;&#37327;&#65306;&#65371;0&#65373;&#21319;/&#22825;</OilWellCapacity>
+  <!--Piped Oil Storage: {0} L ({1})--><TotalOilStorage>&#31649;&#36947;&#20648;&#27833;&#65306;&#65371;0&#65373;L&#65288;&#65371;1&#65373;&#65289;</TotalOilStorage>
+  <!--Piped Capacity: {0} L/day--><PipedOilPumpCapacity>&#31649;&#36947;&#36755;&#36865;&#33021;&#21147;&#65306;&#65371;0&#65373;L/&#22825;</PipedOilPumpCapacity>
+  
+  <!--Drilling Progress: {0}--><DrillingProgress>&#38075;&#25506;&#36827;&#24230;&#65306;&#65371;0&#65373;</DrillingProgress>
+
+  <!--Clean Spill--><CleanOilSpill>&#28165;&#27905;&#28322;&#20986;&#29289;</CleanOilSpill>
+  <!--Cleanup Oil spills or Napalm trails--><CleanOilSpillDesc>&#28165;&#29702;&#28431;&#27833;&#25110;Napalm&#30165;&#36857;</CleanOilSpillDesc>
+  <!--Deconstruct Pipeline--><DesignatorRemovePipeline>&#35299;&#26500;&#31649;&#36947;</DesignatorRemovePipeline>
+  <!--Deconstruct Oil Pipeline--><DesignatorRemovePipelineDesc>&#35299;&#26500;&#36755;&#27833;&#31649;&#36947;</DesignatorRemovePipelineDesc>
+
+  <!--Too close to existing wellhead, Place directly over an unused well to access it again--><PlaceDirectlyOverWell>&#31163;&#29616;&#26377;&#20117;&#21475;&#22826;&#36817;&#65292;&#30452;&#25509;&#25918;&#32622;&#22312;&#26410;&#20351;&#29992;&#30340;&#20117;&#19978;&#65292;&#20197;&#20415;&#20877;&#27425;&#36827;&#20837;</PlaceDirectlyOverWell>
+
+  <!--Fuel usage: {0} L/day--><FuelPowerplantUsage>&#29123;&#26009;&#20351;&#29992;&#37327;&#65306;&#65371;0&#65373;&#21319;/&#22825;</FuelPowerplantUsage>
+
+  <!--Curing failed due to power loss--><CuringFailed>&#21151;&#29575;&#25439;&#22833;&#23548;&#33268;&#22266;&#21270;&#22833;&#36133;</CuringFailed>
+
+  <!--Drain Tank--><DrainStorageTank>&#25490;&#27700;&#27133;</DrainStorageTank>
+  <!--Drain the contents of this tank to other available tanks--><DrainStorageTankDesc>&#23558;&#35813;&#20648;&#32592;&#30340;&#20869;&#23481;&#29289;&#25490;&#25918;&#21040;&#20854;&#20182;&#21487;&#29992;&#30340;&#20648;&#32592;&#20013;</DrainStorageTankDesc>
+
+  <!--Increase Power--><RaiseRefinerPower>&#22686;&#21152;&#21151;&#29575;</RaiseRefinerPower>
+  <!--Reduce Power--><LowerRefinerPower>&#38477;&#20302;&#21151;&#29575;</LowerRefinerPower>
+  <!--Reduces the power used by the refiner to reduce the output--><LowerRefinerPowerDesc>&#38477;&#20302;&#31934;&#28860;&#26426;&#29992;&#20110;&#38477;&#20302;&#36755;&#20986;&#30340;&#21151;&#29575;</LowerRefinerPowerDesc>
+  <!--Increases the power used by the refiner to increase the output--><RaiseRefinerPowerDesc>&#22686;&#21152;&#31934;&#28860;&#26426;&#29992;&#20110;&#22686;&#21152;&#36755;&#20986;&#30340;&#21151;&#29575;</RaiseRefinerPowerDesc>
+
+  <!--No connected refineries or crackers ready for work--><NoRefinerNeedsWork>&#27809;&#26377;&#36830;&#25509;&#30340;&#28860;&#27833;&#21378;&#25110;&#35010;&#35299;&#28809;&#20934;&#22791;&#23601;&#32490;</NoRefinerNeedsWork>
+
+  <!--This will remove the coloured versions of materials from the game. Any saved things will be changed to the plain version when you load the save--><DisableColoursDesc>&#36825;&#23558;&#20174;&#28216;&#25103;&#20013;&#21024;&#38500;&#24425;&#33394;&#29256;&#26412;&#30340;&#26448;&#26009;&#12290;&#21152;&#36733;&#20445;&#23384;&#26102;&#65292;&#25152;&#26377;&#20445;&#23384;&#30340;&#20869;&#23481;&#37117;&#23558;&#26356;&#25913;&#20026;&#26222;&#36890;&#29256;&#26412;</DisableColoursDesc>
+  <!--Disable Colours (Restart required)--><DisableColours>&#31105;&#29992;&#39068;&#33394;&#65288;&#38656;&#35201;&#37325;&#26032;&#21551;&#21160;&#65289;</DisableColours>
+  <!--This will remove the coloured versions of materials from the game. Any saved things will be changed to the plain version when you load the save--><DisableColoursTip>&#36825;&#23558;&#20174;&#28216;&#25103;&#20013;&#21024;&#38500;&#24425;&#33394;&#29256;&#26412;&#30340;&#26448;&#26009;&#12290;&#21152;&#36733;&#20445;&#23384;&#26102;&#65292;&#25152;&#26377;&#20445;&#23384;&#30340;&#20869;&#23481;&#37117;&#23558;&#26356;&#25913;&#20026;&#26222;&#36890;&#29256;&#26412;</DisableColoursTip>
+
+  <!--A working Ground-penetrating scanner is needed to see deep oil reservoirs--><RequiresDeepScanner>&#38656;&#35201;&#19968;&#21488;&#26377;&#25928;&#30340;&#25506;&#22320;&#25195;&#25551;&#20202;&#26469;&#26597;&#30475;&#28145;&#23618;&#27833;&#34255;</RequiresDeepScanner>
+  <!--A working Resource console is needed to see oil reservoirs--><RequiresResourceConsole>&#38656;&#35201;&#19968;&#20010;&#24037;&#20316;&#30340;&#36164;&#28304;&#25511;&#21046;&#21488;&#26469;&#26597;&#30475;&#27833;&#34255;</RequiresResourceConsole>
+
+  <!--Allowed Crafting Skill {0}--><AllowedCraftingSkill>&#20801;&#35768;&#30340;&#24037;&#33402;&#25216;&#33021;&#65371;0&#65373;</AllowedCraftingSkill>
+  <!--Fuel Production Limit {0}--><FuelStorageLimit>&#29123;&#26009;&#20135;&#37327;&#38480;&#21046;&#65371;0&#65373;</FuelStorageLimit>
+  <!--Oil Production Limit {0}--><OilStorageLimit>&#30707;&#27833;&#20135;&#37327;&#38480;&#21046;&#65371;0&#65373;</OilStorageLimit>
+
+  <!--Crackers will stop once they reach the maximum, then work again once it falls below the minimum.\n\nTick to enable--><FuelStoragelimitTip>&#19968;&#26086;&#36798;&#21040;&#26368;&#22823;&#20540;&#65292;&#30772;&#30862;&#26426;&#23601;&#20250;&#20572;&#27490;&#24037;&#20316;&#65292;&#19968;&#26086;&#38477;&#33267;&#26368;&#23567;&#20540;&#20197;&#19979;&#65292;&#30772;&#30862;&#26426;&#20250;&#20877;&#27425;&#24037;&#20316;&#12290;\\n\n&#36873;&#25321;&#21551;&#29992;</FuelStoragelimitTip>
+  
+  <!--Oil wells will stop once they reach the maximum, then work again once it falls below the minimum.\n\nTick to enable--><OilStoragelimitTip>&#27833;&#20117;&#19968;&#26086;&#36798;&#21040;&#26368;&#22823;&#20540;&#23601;&#20250;&#20572;&#27490;&#24037;&#20316;&#65292;&#19968;&#26086;&#20302;&#20110;&#26368;&#23567;&#20540;&#23601;&#20250;&#37325;&#26032;&#24037;&#20316;&#12290;\\n\n&#36873;&#25321;&#21551;&#29992;</OilStoragelimitTip>
+
+  <!--Fuel Pump Limit--><FuelPumpLimit>&#29123;&#27833;&#27893;&#38480;&#21046;</FuelPumpLimit>
+  <!--Pump fuel until this amount is reached, Tick to enable--><FuelPumpLimitTip>&#27893;&#36865;&#29123;&#27833;&#65292;&#30452;&#21040;&#36798;&#21040;&#27492;&#37327;&#65292;&#21246;&#36873;&#21551;&#29992;</FuelPumpLimitTip>
+
+  <!--Resource Console--><ResourceConsoleAlert>&#36164;&#28304;&#25511;&#21046;&#21488;</ResourceConsoleAlert>
+  <!--Open the bills tab on the resource console to change settings for oil and fuel production and add bills for refineries--><ResourceConsoleAlertDesc>&#25171;&#24320;&#36164;&#28304;&#25511;&#21046;&#21488;&#19978;&#30340;&#36134;&#21333;&#36873;&#39033;&#21345;&#65292;&#26356;&#25913;&#30707;&#27833;&#21644;&#29123;&#26009;&#29983;&#20135;&#30340;&#35774;&#32622;&#65292;&#24182;&#28155;&#21152;&#28860;&#27833;&#21378;&#30340;&#36134;&#21333;</ResourceConsoleAlertDesc>
+
+  <!--Console Settings--><ConsoleSettings>&#25511;&#21046;&#21488;&#35774;&#32622;</ConsoleSettings>
+  <!--Global Settings--><GlobalSettings>&#20840;&#23616;&#35774;&#32622;</GlobalSettings>
+</LanguageData>
