@@ -10,7 +10,9 @@ pip install -r requirements.txt
 ```
 
 # 使用
+将配置文件`config_example.ini`修改文件名为`config.ini`,并填写配置信息
 
+然后通过以下命令行使用
 ```
 python main.py FILE_PATH TRANS_FILE_PATH
 ```
