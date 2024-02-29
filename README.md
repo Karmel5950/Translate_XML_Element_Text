@@ -16,3 +16,9 @@ pip install -r requirements.txt
 ```
 python main.py FILE_PATH TRANS_FILE_PATH
 ```
+
+# TODO LIST
+
+1. 增加支持更多在线API的方法
+2. 增加支持离线大模型翻译的方法
+3. 支持批量翻译文件的方法
