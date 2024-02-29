@@ -48,6 +48,7 @@ def translate_xml_element(element, text, from_lang, to_lang):
     # 在元素前添加注释
     add_comment_before_element(element,text)
     # 更新元素的文本内容
+    #print(translated_text)
     element.text = translated_text
 
 # 示例：使用函数翻译XML文件中的元素
@@ -61,7 +62,7 @@ def translate_xml_file(file_path,trans_file_path, from_lang, to_lang):
             translate_xml_element(elem, elem.text, from_lang, to_lang)
 
     # 保存修改后的XML文件
-    tree.write(trans_file_path)
+    tree.write(trans_file_path,encoding='utf-8',xml_declaration=True,pretty_print=True)
 
 def get_config(translate_tool):
     global URL, APP_ID, API_KEY
